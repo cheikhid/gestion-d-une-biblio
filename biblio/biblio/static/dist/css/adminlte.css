@@ -11144,6 +11144,9 @@ body:not(.layout-fixed).layout-navbar-fixed.text-sm .wrapper .main-sidebar .side
     position: static;
   }
 }
+.logout-button {
+  margin-right: 0; /* Déplace le bouton complètement à gauche */
+}
 
 @media (min-width: 1200px) {
   .layout-xl-footer-fixed .wrapper .control-sidebar {
